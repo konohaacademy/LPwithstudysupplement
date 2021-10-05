@@ -263,8 +263,11 @@ body {
 
 .head3 {
   position: relative;
+  width: 80%;
   padding-bottom: 1rem;
   text-align: center;
+  margin: 0 auto;
+  font-size: 18px;
 }
 .head3::before {
   position: absolute;

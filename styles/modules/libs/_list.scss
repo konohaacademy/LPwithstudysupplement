@@ -38,6 +38,22 @@ ul.cp_list li {
 //   transform: rotate(60deg);
 // }
 
+ul.husen {
+  padding: 0;
+  position: relative;
+}
+
+ul.husen li {
+  color: black;
+  border-left: solid 8px orange; /*左側の線*/
+  background: whitesmoke; /*背景色*/
+  margin-bottom: 5px; /*下のバーとの余白*/
+  line-height: 1.5;
+  border-radius: 0 15px 15px 0; /*右側の角だけ丸く*/
+  padding: 0.5em;
+  list-style-type: none !important;
+}
+
 @media screen and (min-width: 900px) {
   ul.cp_list li {
     font-size: 18px;
