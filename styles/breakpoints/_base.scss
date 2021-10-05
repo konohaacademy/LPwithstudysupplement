@@ -342,3 +342,11 @@ body {
 .img-bright {
   filter: brightness(120%);
 }
+
+.bg-round {
+  position: relative;
+  object-fit: contain;
+  overflow: hidden;
+  background: url(../../../images/backgroundround.webp) repeat;
+  background-size: 100% auto;
+}

@@ -1680,7 +1680,7 @@ input[type="radio"] {
 /* main-visual */
 #main-visual {
   position: relative;
-  height: 68vh;
+  height: 75vh;
   width: auto;
   /* width: 100vh; */
   padding-top: -142px;
@@ -2108,6 +2108,15 @@ body {
 .img-bright {
   -webkit-filter: brightness(120%);
           filter: brightness(120%);
+}
+
+.bg-round {
+  position: relative;
+  -o-object-fit: contain;
+     object-fit: contain;
+  overflow: hidden;
+  background: url(../../../images/backgroundround.webp) repeat;
+  background-size: 100% auto;
 }
 
 @media (min-width: 480px) {
