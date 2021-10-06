@@ -353,3 +353,11 @@ body {
   background: url(../../../images/backgroundround.webp) repeat;
   background-size: 100% auto;
 }
+
+.bg-geometory {
+  position: relative;
+  object-fit: contain;
+  overflow: hidden;
+  background: url(../../../images/backgroundgeometory.webp) repeat;
+  background-size: 100% auto;
+}
