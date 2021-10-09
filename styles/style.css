@@ -988,12 +988,19 @@ button {
   }
 }
 
+@media screen and (min-width: 960px) {
+  #main-in {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
 .before-icon1::before {
   content: "";
   display: inline-block;
   width: 35px;
   height: 30px;
-  background: url(../../../images/logo.png) no-repeat;
+  background: url(../../../images/logo.webp) no-repeat;
   background-size: contain;
   vertical-align: middle;
 }
